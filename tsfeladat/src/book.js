@@ -9,8 +9,7 @@ class Book {
     set setRating(rating) {
         if (rating > 10 || rating < 1) {
             throw new Error('Rating is invalid');
-        }
-        else {
+        } else {
             this.rating = rating;
         }
     }

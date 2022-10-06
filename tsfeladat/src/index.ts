@@ -12,6 +12,7 @@ for (let i:number = 0; i < lista.length; i++) {
     console.log(lista[i].name);
 }
 
+
 console.log('7-nél nagyobb értékeléssel rendelkező filmek: ');
 for (let i:number = 0; i < lista.length; i++) {
     if (lista[i].rating > 7) {        

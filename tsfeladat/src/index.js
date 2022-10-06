@@ -28,6 +28,7 @@ for (let i = 0; i < lista2.length; i++) {
     console.log(lista2[i].toString());
 }
 
+
 function bestof() {
     let index = 0;
     let best = 0;
